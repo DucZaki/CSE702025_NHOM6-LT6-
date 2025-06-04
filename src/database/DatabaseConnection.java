@@ -3,11 +3,14 @@ package database;
 import java.sql.*;
 
 public class DatabaseConnection {
-    private static final String URL = "jdbc:mysql://localhost:3306/quanly_quan_net";
-    private static final String USER = "root";
-    private static final String PASSWORD = "123456a@";
+    private static final String URL = Config.get("db.url");
+    private static final String USER = Config.get("db.username");
+    private static final String PASSWORD = Config.get("db.password");
 
     public static Connection getConnection() throws SQLException {
+        if (URL == null || USER == null || PASSWORD == null) {
+            throw new SQLException("Thông tin cấu hình cơ sở dữ liệu không hợp lệ. Vui lòng kiểm tra tệp config.properties.");
+        }
         return DriverManager.getConnection(URL, USER, PASSWORD);
     }
 
