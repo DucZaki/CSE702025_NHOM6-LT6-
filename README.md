@@ -33,14 +33,9 @@ Phần mềm được xây dựng nhằm hỗ trợ chủ quán net trong việc
 ---
 
 ## 🛠️ Công Nghệ Sử Dụng
-- **Ngôn ngữ:** C# (.NET Framework hoặc .NET Core)
-- **Giao diện:** Windows Forms (WinForms)
-- **Cơ sở dữ liệu:** SQL Server / SQLite
+- **Cơ sở dữ liệu:** SQL Server / MySQL
 - **Mã hóa bảo mật:** SHA-256 (`System.Security.Cryptography`)
-- **Phân lớp:** UI – BLL – DAL – DTO
-
+- **Ngôn ngữ:** java
+- **Giao diện:** JavaSwing
 ---
-
-## 📌 Ghi chú
-Dự án phù hợp cho các mô hình quán net nhỏ và vừa, hỗ trợ tùy chỉnh dễ dàng để mở rộng thêm các tính năng như: quản lý dịch vụ (nước uống, đồ ăn), ca làm việc nhân viên, hoặc kết nối API thanh toán.
 
