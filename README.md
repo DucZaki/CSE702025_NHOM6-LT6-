@@ -37,5 +37,11 @@ Phần mềm được xây dựng nhằm hỗ trợ chủ quán net trong việc
 - **Mã hóa bảo mật:** SHA-256 (`System.Security.Cryptography`)
 - **Ngôn ngữ:** java
 - **Giao diện:** JavaSwing
----
+Thành Viên Nhóm
+NGUYỄN MINH ĐỨC – MSSV: 23010634
+
+NGÔ VĂN HƯNG – MSSV: 23010622
+
+HÀ CÔNG HƯỚNG – MSSV: 23010558
+
 
